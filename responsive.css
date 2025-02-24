@@ -99,6 +99,15 @@
     .para1 p, .para2 p, .para3 p {
         font-size: 3vw;
     }
+    .ham-menu-mobile{
+        display: none;
+        position: fixed;
+        top: 6.5vh;
+        right: 1vh;
+    }
+    .ham-menu-mobile.active {
+        display: flex;
+    }
 }
 
 @media (max-width: 1024px) and (min-width: 770px) {
