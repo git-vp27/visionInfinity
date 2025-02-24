@@ -18,16 +18,17 @@
 }
 .para-txt p{
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1vw;
     margin-bottom: 2vh;
 }
 .para-txt h2{
     font-weight: 700;
     margin-bottom: 2vh;
+    font-size: 2vw;
 }
 .about-main-box .para1 img{
-    height: 40vh;
-    margin-left: 10vw;
+    height: 25vw;
+    margin-left: 5vw;
 }
 .para3{
     width: 50vw;
@@ -36,10 +37,10 @@
 .para2{
     width: 50vw;
     text-align: justify;
-    margin:5vh 0 5vh 25vw;
+    margin:3vh 0 3vh 25vw;
 }
 .para2 p, .para3 p{
     font-weight: 300;
     text-align: justify;
-    font-size: 0.9rem;
+    font-size: 1vw;
 }
