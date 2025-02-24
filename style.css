@@ -15,9 +15,12 @@ nav{
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.663);
-    z-index: 2;
+    z-index: 3;
     position: sticky;
     top: 0;
+}
+#ham-menu{
+    display: none;
 }
 
 .logo img{
@@ -36,6 +39,7 @@ nav{
     text-decoration: none;
     color: black;
     font-weight: 600;
+    font-size: 1vw;
 }
 .nav-elements button{
     padding: 0.75vw 1.5vw;
@@ -75,7 +79,7 @@ nav{
     margin-left: 18vw;
 }
 .main-heading h1{
-    font-size: 3rem;
+    font-size: 3vw;
     font-weight: 700;
 }
 .home-pg-main button{
@@ -86,7 +90,7 @@ nav{
     border-radius: 5vw;
     color: white;
     margin-top: 2vh;
-    font-size: 1.1rem;
+    font-size: 1.2vw;
     cursor: pointer;
 }
 
@@ -106,13 +110,14 @@ nav{
     font-weight: 700;
     color: gray;
     margin-bottom: 2vh;
+    font-size: 2.2vw;
 }
 .about-txt p{
     margin-bottom: 2.5vh;
     font-weight: 300
 }
 .about-img img{
-    height: 18rem;
+    height: 20vw;
 }
 
 /* *************** Product - Section *************** */
@@ -124,16 +129,21 @@ nav{
     padding: 5vh 3vw;
 }
 .product-name{
-    padding: 3vh 4vw;
+    width: 20vw;
+    height: 10vh;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .product-name a{
     text-decoration: none;
     color: black;
     font-weight: 600;
+    font-size: 1.2vw;
 }
 .product-name i{
-    font-size: 1.4rem;
+    font-size: 1.7vw;
     margin-right: 10px;
 }
 
@@ -141,14 +151,14 @@ nav{
 .footer{
     display: flex;
     align-items: center;
-    height: 15vh;
-    padding: 0 5vw;
+    padding: 3vw 5vw;
     background-color: #F6F7F6;
     justify-content: space-between;
+    font-size: 1.2vw;
 }
 .footer span{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2.5vw;
+    width: 2.5vw;
     border-radius: 50%;
     background-color: black;
     color: white;
@@ -171,9 +181,12 @@ nav{
     text-align: center;
 }
 .company-info .numbers{
-    font-size: 2.5rem;
+    font-size: 3vw;
     font-weight: 700;
     color: #6699cc;
+}
+.company-info .domain{
+    font-size: 1.2vw;
 }
 
 
