@@ -212,7 +212,7 @@ nav{
     display: none;
     background-color: black;
     width: 25vw;
-    padding: 2vh 1vw 2vh 3.5vw;
+    padding: 1vh 1vw 1.5vh 3.5vw;
     border-radius: 2vw;
 }
 .ham-menu-mobile ul{
